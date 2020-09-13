@@ -1,6 +1,7 @@
 <?php
 require_once('../app/bootstrap.php');
 
-echo 'hello';
+// echo 'hello';
+$init = new Core();
 
 ?>

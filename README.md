@@ -1,0 +1,1 @@
+This is mini PHP Framework based on MVC.
