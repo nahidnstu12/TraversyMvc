@@ -5,9 +5,14 @@ class Pages extends Controller{
     function __construct()
     {
         // echo "page loaded";
+        $this->postModel = $this->model('Post');
     }
     function index(){
-        $this->view('Pages/index');
+        $posts = $this->postModel->getPosts();
+        $data = [
+            "posts"=>$posts
+        ];
+        $this->view('Pages/index',$data);
     }
     function about($id){
         echo $id;
