@@ -46,7 +46,7 @@
         }
         function getUrl(){
 
-            $url = $_GET['url'];
+            // $url = $_GET['url'];
 
             if(isset($_GET['url'])){
 
