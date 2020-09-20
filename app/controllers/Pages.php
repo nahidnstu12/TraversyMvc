@@ -4,9 +4,7 @@ class Pages extends Controller{
 
     function __construct()
     {
-        /* setting model class
-        * $this->postModel = $this->model('Post');
-        */
+      
     }
     function index(){
         $data = [
